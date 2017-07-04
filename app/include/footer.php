@@ -1,4 +1,4 @@
-<section class="digits">
+<!-- <section class="digits">
 	<div class="container">
 		<h2 class="digits-title">Цифры говорят больше слов</h2>
 		<div class="digits-row">
@@ -20,69 +20,66 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
 
 
 
-<section class="spain">
+<!-- <section class="spain">
 	<div class="spain-bg">
 	</div>
-	
 	<div class="spain-cont">
 		<div class="container">
 			<div class="row">
-				<!-- <div class="col-md-12"> -->
-					<div class="spain-inner">
-						<div class="spain-map-wrap">
-							<img src="img/spain.png" alt="Испания" class="spain-map">
-							<b class="spain-location">Испания<br> <strong>г. Аликанте</strong></b>
-						</div>
-						<div class="spain-desc">
-							<img src="img/spain-logo.png" alt="CRYP TRADE CAPITAL">
-							<p class="spain-p">Cryp Trade Capital зарегистрирована в Испании, там же расположен Главный офис компании.</p>
-							<p class="spain-p">Мы действуем в рамках Европейского правового поля.</p>
+				<div class="spain-inner">
+					<div class="spain-map-wrap">
+						<img src="img/spain.png" alt="Испания" class="spain-map">
+						<b class="spain-location">Испания<br> <strong>г. Аликанте</strong></b>
+					</div>
+					<div class="spain-desc">
+						<img src="img/spain-logo.png" alt="CRYP TRADE CAPITAL">
+						<p class="spain-p">Cryp Trade Capital зарегистрирована в Испании, там же расположен Главный офис компании.</p>
+						<p class="spain-p">Мы действуем в рамках Европейского правового поля.</p>
+					</div>
+				</div>
+				<div class="spain-docs">
+					<div class="spain-docs-col">
+						<div class="spain-docs-item">
+							<a href="img/spain-doc1.jpg" data-fancybox="sertifikat">
+								<img src="img/spain-doc1.jpg" alt="">
+							</a>
 						</div>
 					</div>
-					<div class="spain-docs">
-						<div class="spain-docs-col">
-							<div class="spain-docs-item">
-								<a href="img/spain-doc1.jpg" data-fancybox="sertifikat">
-									<img src="img/spain-doc1.jpg" alt="">
-								</a>
-							</div>
-						</div>
-						<div class="spain-docs-col">
-							<div class="spain-docs-item">
-								<a href="img/spain-doc2.jpg" data-fancybox="sertifikat">
-									<img src="img/spain-doc2.jpg" alt="">
-								</a>
-							</div>
-						</div>
-						<div class="spain-docs-col">
-							<div class="spain-docs-item">
-								<a href="img/spain-doc3.jpg" data-fancybox="sertifikat">
-									<img src="img/spain-doc3.jpg" alt="">
-								</a>
-							</div>
-						</div>
-						<div class="spain-docs-col">
-							<div class="spain-docs-item">
-								<a href="img/spain-doc4.jpg" data-fancybox="sertifikat">
-									<img src="img/spain-doc4.jpg" alt="">
-								</a>
-							</div>
+					<div class="spain-docs-col">
+						<div class="spain-docs-item">
+							<a href="img/spain-doc2.jpg" data-fancybox="sertifikat">
+								<img src="img/spain-doc2.jpg" alt="">
+							</a>
 						</div>
 					</div>
-				<!-- </div> -->
+					<div class="spain-docs-col">
+						<div class="spain-docs-item">
+							<a href="img/spain-doc3.jpg" data-fancybox="sertifikat">
+								<img src="img/spain-doc3.jpg" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="spain-docs-col">
+						<div class="spain-docs-item">
+							<a href="img/spain-doc4.jpg" data-fancybox="sertifikat">
+								<img src="img/spain-doc4.jpg" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
 
 
-<section class="cooperation">
+<!-- <section class="cooperation">
 	<div class="container">
 		<h2 class="cooperation-title">Инвесторы о сотрудничестве<br> с Cryp Trade Capital</h2>
 		<div class="cooperation-slider-wrap">
@@ -129,11 +126,11 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
 
 
-<section class="getinvest">
+<!-- <section class="getinvest">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -191,11 +188,11 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
 
 
-<section class="steps">
+<!-- <section class="steps">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -244,12 +241,11 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
 
 
-<section class="paket">
-	<!-- <img src="img/paket.jpg" alt="пакет услуг" class="paket-bg"> -->
+<!-- <section class="paket">
 	<div class="container">
 		<h2 class="paket-title">Выберите свой пакет инвестиций</h2>
 		<div class="row">
@@ -372,11 +368,11 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
 
 
-<section class="faq">
+<!-- <section class="faq">
 	<div class="container">
 		<h2 class="faq-title">Ответы на часто задаваемые вопросы</h2>
 		<div class="row">
@@ -403,14 +399,13 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
-<!-- <img src="img/priroda_bwua_02.06.2012_019__1920x1200.jpg" alt="" class="az-img"> -->
 
-<footer class="footer">
+<!-- <footer class="footer">
 	<div class="container">
 		<div class="footer-logo">
 			<img src="img/footer-logo.png" alt="CRYP TRADE CAPITAL">
 		</div>
 	</div>
-</footer>
+</footer> -->
