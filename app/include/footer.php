@@ -23,8 +23,6 @@
 </section> -->
 
 
-
-
 <!-- <section class="spain">
 	<div class="spain-bg">
 	</div>
@@ -78,7 +76,6 @@
 </section> -->
 
 
-
 <!-- <section class="cooperation">
 	<div class="container">
 		<h2 class="cooperation-title">Инвесторы о сотрудничестве<br> с Cryp Trade Capital</h2>
@@ -127,7 +124,6 @@
 		</div>
 	</div>
 </section> -->
-
 
 
 <!-- <section class="getinvest">
@@ -191,7 +187,6 @@
 </section> -->
 
 
-
 <!-- <section class="steps">
 	<div class="container">
 		<div class="row">
@@ -242,7 +237,6 @@
 		</div>
 	</div>
 </section> -->
-
 
 
 <!-- <section class="paket">
@@ -371,7 +365,6 @@
 </section> -->
 
 
-
 <!-- <section class="faq">
 	<div class="container">
 		<h2 class="faq-title">Ответы на часто задаваемые вопросы</h2>
@@ -409,3 +402,8 @@
 		</div>
 	</div>
 </footer> -->
+
+
+<footer class="footer">
+	
+</footer>
