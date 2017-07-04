@@ -1,0 +1,64 @@
+.digits{
+	margin-top: 115px;
+}
+
+.digits-title{
+	font-family: "MuseoSansCyrl-900";
+	font-size: 26px;
+	line-height: 38px;
+	color: #1a1a1a;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+	@include mobile(992){
+		font-size: 33px;
+		line-height: 45px;
+	}
+	@include mobile(1200){
+		font-size: 41px;
+	}
+}
+
+.digits-row{
+	font-size: 0;
+	margin: 0 -15px;
+}
+
+.digits-col{
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+	padding: 0 15px;
+	font-size: 12px;
+	margin-top: 45px;
+	@include desktop(1200){
+		width: 50%;
+	}
+	@include desktop(768){
+		width: 100%;
+	}
+}
+
+.digits-num{
+	font-weight: normal;
+	display: block;
+	width: 100%;
+	height: 95px;
+	border: 6px solid #fdb500;
+	border-radius: 47px;
+	text-align: center;
+	line-height: 83px;
+	font-size: 45px;
+	color: #1a1a1a;
+	font-family: "MuseoSansCyrl-900";
+}
+
+.digits-p{
+	line-height: 22px;
+	font-size: 18px;
+	color: #1a1a1a;
+	font-family: "AvenirNext-DemiBold";
+	margin-top: 17px;
+	text-align: center;
+}

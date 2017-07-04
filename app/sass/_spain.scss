@@ -1,0 +1,170 @@
+.spain{
+	position: relative;
+	min-height: 1100px;
+	margin-top: 20px;
+	margin-bottom: 105px;
+	@include desktop(1200){
+		min-height: 0px;
+	}
+	@include desktop(992){
+		padding: 0 15px;
+		background: transparent url('../img/spain-bg.jpg') center top no-repeat;
+		background-size: cover;
+		margin-bottom: 50px;
+	}
+}
+
+.spain-bg{
+	clip-path: polygon(0 18%, 100% 0, 100% 82%, 0 100%);
+	background: transparent url('../img/spain-bg.jpg') center top no-repeat;
+	min-height: 850px;
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	right: 0;
+	@include desktop(992){
+		display: none;
+		// clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+		// min-height: 600px;
+		// background-size: cover;
+	}
+	// @include desktop(768){
+	// 	min-height: 1000px;
+	// }
+}
+
+.spain-inner{
+	position: relative;
+	min-height: 10px;
+	@include desktop(992){
+		padding-top: 15px;
+	}
+}
+
+.spain-cont{
+	// position: absolute;
+	// left: 0;
+	// right: 0;
+}
+
+.spain-map-wrap{
+	position: relative;
+	max-width: 81%;
+	margin-left: auto;
+	@include desktop(480){
+		max-width: 100%;
+	}
+}
+
+.spain-map{
+	// position: absolute;
+	width: 100%;
+	height: auto;
+}
+
+.spain-location{
+	position: absolute;
+	// outline: 1px solid red;	
+	top: calc(76% - 79px);
+	left: calc(63% - 29px);
+	padding-left: 100px;
+	padding-top: 20px;
+	background: url(../img/spain-map.png) no-repeat left top;
+	min-height: 100px;
+	font-family: "AvenirNext-Regular";
+	font-size: 28px;
+	line-height: 28px;
+	color: #fff;
+	font-weight: normal;
+	display: inline-block;
+	vertical-align: top;
+	white-space: nowrap;
+	strong{
+		display: inline-block;
+		vertical-align: top;
+		font-family: "MuseoSansCyrl-700";
+		font-size: 40px;
+		line-height: 36px;
+		letter-spacing: 0.025em;
+		font-weight: normal;
+	}
+	@include desktop(992){
+		font-size: 14px;
+		line-height: 14px;
+		min-height: 50px;
+		padding-top: 20px;
+		padding-left: 50px;
+		top: calc(76% - 49px);
+		left: calc(63% - 19px);
+		background-size: auto 50px;
+		strong{
+			font-size: 20px;
+			line-height: 18px;
+		}
+	}
+	@include desktop(480){
+		padding-top: 60px;
+		padding-left: 10px;
+	}
+}
+
+.spain-desc{
+	position: absolute;
+	top: 60%;
+	transform: translateY(-50%);
+	left: 0;
+	width: 29%;
+	min-width: 200px;
+	color: #fff;
+	img{
+		max-width: 100%;
+		height: auto;
+		margin-bottom: 10px;
+	}
+	@include desktop(480){
+		position: relative;
+		transform: translateY(0);
+		top: 0;
+		width: 100%;
+	}
+}
+
+.spain-p{
+	font-family: "MuseoSansCyrl-700";
+	font-size: 18px;
+	line-height: 25px;
+	color: #fff;
+	margin: 20px 0 0;
+}
+
+.spain-docs{
+	margin-top: 30px;
+	font-size: 0;
+}
+
+.spain-docs-col{
+	display: inline-block;
+	vertical-align: top;
+	width: calc(25% - 15px);
+	padding: 0 3px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	&:last-child{
+		margin-right: 0;
+	}
+	@include desktop(768){
+		width: calc(50% - 8px);
+		margin-right: 16px;
+		&:nth-child(2n){
+			margin-right: 0;
+		}
+	}
+}
+
+.spain-docs-item{
+	text-align: center;
+	img{
+		max-width: 100%;
+		height: auto;
+	}
+}

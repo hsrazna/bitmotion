@@ -1,0 +1,171 @@
+@import "vars";
+
+
+.whyinvestment{
+    margin-top: 0px;
+    position: relative;
+    z-index: 2;
+	background:transparent url('../img/box-fon.jpg') center top no-repeat;
+	background-size: cover;
+	clip-path: none;
+	height: auto;
+	@include mobile(1200){
+		height: 1402px;
+		background-size: none;
+		clip-path: polygon(0 18%, 100% 0, 100% 82%, 0 100%);
+		margin-top: -21%;
+	}
+	@include mobile(1600){
+		margin-top: -23%;
+	}
+}
+.whyinvestment-title{
+	margin-top: 25%;
+	margin-bottom: 20px;
+	text-align: center;
+	@include mobile(480){
+		margin-top: 20%;
+	}
+	@include mobile(768){
+		margin-top: 10%;
+	}
+	@include mobile(1200){
+		margin-top: 38%;
+		margin-bottom: 45px;
+	}
+	@include mobile(1600){
+		margin-top: 42%;
+	}
+}
+.whyinvestment-span{
+	display: block;
+	font-family: AvenirNext-DemiBold;
+	color: #fff;
+	font-size: 18px;
+	line-height: 22px;
+	margin-top: 15px;
+}
+.whyinvestment-itemrow{
+	width: 100%;
+	font-size: 0;
+	text-align: center;
+}
+.whyinvestment-item{
+	display: inline-block;
+	width: 100%;
+	max-width: 208px;
+	text-align: center;
+	vertical-align: top;
+	margin: 20px 15px;
+	@include mobile(992){
+		max-width: 250px;
+	}
+	@include mobile(1200){
+		margin: 20px 64px;
+	}
+}
+.whyinvestment-linkbox{
+	width: 100%;
+	font-size: 0;
+	margin-top: 5%;
+    position: relative;
+    z-index: 20;
+    text-align: center;
+    @include mobile(1200){
+		margin-top: -14%;
+	}
+}
+.whyinvestment-linkbox-left{
+	display: block;
+	width: 100%;
+	max-width: none;
+	height: auto;
+	background: #fdb500;
+	vertical-align: top;
+	text-align: center;
+	padding: 10px 10px;
+	@include mobile(480){
+		height: 109px;
+		padding: 0px 0px;
+	}
+	@include mobile(768){
+		display: inline-block;
+		width: 100%;
+		max-width: 450px;
+	}
+	@include mobile(992){
+		background: url('../img/whyinvest-img.png') center center no-repeat;
+		max-width: 654px;
+	}
+}
+.whyinvestment-link{
+	display: block;
+	width: 100%;
+	vertical-align: top;
+	padding-left: 0px;
+	@include mobile(768){
+		display: inline-block;
+		width: 35%;
+		padding-left: 10px;
+	}
+	@include mobile(992){
+		padding-left: 0px;
+		width: 30%;
+	}
+}
+.whyinvestment-linkbox-text{
+	display: inline-block;
+	font-family: AvenirNext-DemiBold;
+	color: #1d1d1d;
+	font-size: 16px;
+	line-height: 30px;
+	margin-top: 0px;
+	@include mobile(480){
+		font-size: 20px;
+		margin-top: 20px;
+	}
+	@include mobile(992){
+		font-size: 25px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

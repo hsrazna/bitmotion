@@ -1,0 +1,146 @@
+@import "vars";
+
+
+
+
+.video-title{
+	position: relative;
+	color: #1a1a1a;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	&::before{
+		position: absolute;
+		content: "";
+		width: 100%;
+		max-width: 360px;
+		height: 3px;
+		background: #fdb500;
+		left: 50%;
+	    bottom: -10%;
+	    transform: translate(-50%, -50%);
+	    @include mobile(480){
+			bottom: -30%;
+		}
+	}
+	@include mobile(992){
+		margin-top: 75px;
+		margin-bottom: 30px;
+	}
+	@include mobile(1600){
+		margin-top: 100px;
+		margin-bottom: 40px;
+	}
+}
+.video-subtitle{
+	display: block;
+	font-family: AvenirNext-DemiBold;
+	color: #1a1a1a;
+	font-size: 16px;
+	line-height: 25px;
+	text-align: center;
+	@include mobile(480){
+		font-size: 16px;
+	}
+	@include mobile(768){
+		font-size: 20px;
+	}
+}
+.video-div{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin-top: 25px;
+	margin: 40px auto;
+	border: 9px solid #fdb500;
+	@include mobile(1200){
+		border: 9px solid transparent;
+		width: 1035px;
+		height: 130px;
+		background: url(../img/video-border.png) center center no-repeat #fff;
+		padding-bottom: 0;
+	}
+}
+.video-div-text{
+	display: block;
+	font-family: AvenirNext-DemiBold;
+	color: #1a1a1a;
+	font-size: 16px;
+	line-height: 25px;
+	text-align: center;
+	@include mobile(1200){
+		font-size: 20px;
+	}
+}
+.video-viewdiv{
+	display: block;
+	width: 100%;
+	height: 400px;
+	margin: 0px auto;
+	box-shadow: 1.5px 2.6px 61.6px 17.4px rgba(0, 0, 0, 0.26);
+	@include mobile(992){
+		width: 946px;
+		height: 555px;
+	}
+	iframe{
+		width: 100%;
+		height: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

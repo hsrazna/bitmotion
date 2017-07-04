@@ -1,0 +1,36 @@
+@import "bourbon";
+@import "fonts";
+@import "libs";
+@import "vars";
+@import "style";
+
+// @import "header";
+@import "header";
+@import "slider";
+@import "whyinvestment";
+@import "video";
+
+
+
+
+
+
+
+ul{
+	padding: 0;
+	margin: 0;
+}
+p{
+	margin: 0;
+}
+
+.responsive-img{
+	height: auto;
+	max-width: 100%;
+}
+
+
+
+
+// @import "media"; /* Всегда в конце */
+// @import "media2";  /* Всегда в конце */

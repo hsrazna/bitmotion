@@ -1,0 +1,135 @@
+.steps{
+	margin-top: 140px;
+	@include desktop(768){
+		margin-top: 50px;
+	}
+}
+
+.steps-title{
+	font-family: "MuseoSansCyrl-900";
+	font-size: 26px;
+	line-height: 38px;
+	color: #1a1a1a;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 0 45px;
+	@include mobile(992){
+		font-size: 33px;
+		line-height: 45px;
+	}
+	@include mobile(1200){
+		font-size: 41px;
+	}
+}
+
+.steps-block{
+	font-size: 0;
+}
+
+.steps-col{
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+	font-size: 12px;
+	padding: 0 30px;
+	position: relative;
+	min-height: 179px;
+	&::after{
+		content: '';
+		position: absolute;
+		top: 5px;
+		right: -20px;
+		width: 31px;
+		height: 179px;
+		background: url(../img/steps-arrow.png) no-repeat center;
+	}
+	&:last-child{
+		&::after{
+			display: none;
+		}
+	}
+	@include desktop(1200){
+		margin-bottom: 60px;
+		width: 50%;
+		&:nth-child(2){
+			&::after{
+				display: none;
+			}
+		}
+	}
+	@include desktop(768){
+		width: 100%;
+		min-height: 0;
+		&:nth-child(2){
+			&::after{
+				display: block;
+			}
+		}
+		&::after{
+			// bottom: -100px;
+			top: calc(100% - 40px);
+			right: 50%;
+			transform: rotate(90deg) translateX(-50%);
+			width: 31px;
+			height: 179px;
+			background: url(../img/steps-arrow.png) no-repeat center;
+		}
+	}
+	@include desktop(480){
+		padding: 0;
+	}
+}
+
+.spets-item{
+	font-size: 0;
+
+}
+
+.spets-item-left{
+	font-size: 76px;
+	line-height: 76px;
+	color: #fdb500;
+	font-family: "AvenirNext-DemiBold";
+	display: inline-block;
+	vertical-align: top;
+	width: 58px;
+	font-weight: normal;
+}
+
+.spets-item-right{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 12px;
+	width: calc(100% - 58px);
+}
+
+.steps-item-title{
+	font-size: 20px;
+	line-height: 25px;
+	font-weight: normal;
+	color: #1a1a1a;
+	margin: 0 0 10px;
+	font-family: "MuseoSansCyrl-700";
+}
+
+.steps-item-p{
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: normal;
+	color: #1a1a1a;
+	margin: 0;
+	font-family: "AvenirNext-Regular";
+}
+
+.header-link.steps-link{
+	height: 48px;
+	padding: 8px 10px;
+	margin: 30px auto 0;
+	box-shadow: 3px 6px 13px rgba(0,0,0,0.35);
+	span{
+		font-size: 12px;
+		height: 32px;
+		line-height: 33px;
+	}
+}

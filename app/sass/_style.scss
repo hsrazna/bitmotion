@@ -1,0 +1,42 @@
+// @import "bourbon";
+// @import "fonts";
+// @import "libs";
+@import "vars";
+
+body{
+	overflow-x: hidden;
+	overflow-y: auto;
+	background: url(../img/body-bg.png) repeat-y center top;
+}
+
+@import "footer";
+@import "faq";
+@import "paket";
+@import "steps";
+@import "getinvest";
+@import "cooperation";
+@import "spain";
+@import "digits";
+
+
+// .az-test{
+// 	font-family: "AvenirNext-Regular";
+// }
+
+// @import "az-header";
+
+
+
+
+// .az-div{
+//     width: 100px;
+//     height: 100px;
+//     background: red;
+//     @include mobile(992){
+//         background: green;
+//     }
+//     @include desktop(480){
+//         background: blue;
+//     }
+// }
+
