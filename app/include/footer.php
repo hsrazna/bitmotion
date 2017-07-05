@@ -23,62 +23,72 @@
 </section> -->
 
 
-<!-- <section class="spain">
-	<div class="spain-bg">
-	</div>
-	<div class="spain-cont">
-		<div class="container">
-			<div class="row">
-				<div class="spain-inner">
-					<div class="spain-map-wrap">
-						<img src="img/spain.png" alt="Испания" class="spain-map">
-						<b class="spain-location">Испания<br> <strong>г. Аликанте</strong></b>
-					</div>
-					<div class="spain-desc">
-						<img src="img/spain-logo.png" alt="CRYP TRADE CAPITAL">
-						<p class="spain-p">Cryp Trade Capital зарегистрирована в Испании, там же расположен Главный офис компании.</p>
-						<p class="spain-p">Мы действуем в рамках Европейского правового поля.</p>
-					</div>
-				</div>
-				<div class="spain-docs">
-					<div class="spain-docs-col">
-						<div class="spain-docs-item">
-							<a href="img/spain-doc1.jpg" data-fancybox="sertifikat">
-								<img src="img/spain-doc1.jpg" alt="">
-							</a>
+
+<section class="getinvest">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="getinvest-title">Что Вы получите после регистрации</h2>
+				<div class="getinvest-block">
+					<div class="getinvest-col">
+						<div class="getinvest-item">
+							<div class="getinvest-item-img">
+								<img src="img/getinvest-item1.png" alt="">
+							</div>
+							<p class="getinvest-item-p">Доступ к автоматизированной<br> обучающей платформе</p>
 						</div>
 					</div>
-					<div class="spain-docs-col">
-						<div class="spain-docs-item">
-							<a href="img/spain-doc2.jpg" data-fancybox="sertifikat">
-								<img src="img/spain-doc2.jpg" alt="">
-							</a>
+					<div class="getinvest-col">
+						<div class="getinvest-item">
+							<div class="getinvest-item-img">
+								<img src="img/getinvest-item2.png" alt="">
+							</div>
+							<p class="getinvest-item-p"><strong>100 часов видео от трейдеров с опытом от 5 лет на рынке инвестиций</strong></p>
 						</div>
 					</div>
-					<div class="spain-docs-col">
-						<div class="spain-docs-item">
-							<a href="img/spain-doc3.jpg" data-fancybox="sertifikat">
-								<img src="img/spain-doc3.jpg" alt="">
-							</a>
+					<div class="getinvest-col">
+						<div class="getinvest-item">
+							<div class="getinvest-item-img">
+								<img src="img/getinvest-item3.png" alt="">
+							</div>
+							<p class="getinvest-item-p">Доход от <strong>$2000/месяц</strong><br> уже через <strong>2 месяца</strong></p>
 						</div>
 					</div>
-					<div class="spain-docs-col">
-						<div class="spain-docs-item">
-							<a href="img/spain-doc4.jpg" data-fancybox="sertifikat">
-								<img src="img/spain-doc4.jpg" alt="">
-							</a>
+					<div class="getinvest-col">
+						<div class="getinvest-item">
+							<div class="getinvest-item-img">
+								<img src="img/getinvest-item4.png" alt="">
+							</div>
+							<p class="getinvest-item-p">Знания для работы в сфере инвестиций и на рынке криптовалют</p>
+						</div>
+					</div>
+					<div class="getinvest-col">
+						<div class="getinvest-item">
+							<div class="getinvest-item-img">
+								<img src="img/getinvest-item5.png" alt="">
+							</div>
+							<p class="getinvest-item-p">Возможность построить прибыльный бизнес прямо внутри системы</p>
+						</div>
+					</div>
+					<div class="getinvest-col">
+						<div class="getinvest-item">
+							<div class="getinvest-item-img">
+								<img src="img/getinvest-item6.png" alt="">
+							</div>
+							<p class="getinvest-item-p">Доступ в сообщество и на все внутренние мероприятия</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</section> -->
+</section>
 
 
-<!-- <section class="cooperation">
+
+<section class="cooperation">
 	<div class="container">
-		<h2 class="cooperation-title">Инвесторы о сотрудничестве<br> с Cryp Trade Capital</h2>
+		<h2 class="cooperation-title">Вот что говорят те, кто уже прошел<br> обучение в Bitmotion Club</h2>
 		<div class="cooperation-slider-wrap">
 			<div class="cooperation-slider">
 				<div class="cooperation-slider-item">
@@ -123,68 +133,8 @@
 			</div>
 		</div>
 	</div>
-</section> -->
+</section>
 
-
-<!-- <section class="getinvest">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<h2 class="getinvest-title">Что Вы получите, став инвестором</h2>
-				<div class="getinvest-block">
-					<div class="getinvest-col">
-						<div class="getinvest-item">
-							<div class="getinvest-item-img">
-								<img src="img/getinvest-item1.png" alt="">
-							</div>
-							<p class="getinvest-item-p">Стабильный пассивный доход<br> от 17.7% до 29.7% в месяц<br> и от 215 до 361% в год</p>
-						</div>
-					</div>
-					<div class="getinvest-col">
-						<div class="getinvest-item">
-							<div class="getinvest-item-img">
-								<img src="img/getinvest-item2.png" alt="">
-							</div>
-							<p class="getinvest-item-p">Возможность вывести доход в любое удобное время через Perfect Money, Адвакэр, Биткоин, Эфириум</p>
-						</div>
-					</div>
-					<div class="getinvest-col">
-						<div class="getinvest-item">
-							<div class="getinvest-item-img">
-								<img src="img/getinvest-item3.png" alt="">
-							</div>
-							<p class="getinvest-item-p">Полностью автоматизированную платформу для внесения вкладов и получения дохода</p>
-						</div>
-					</div>
-					<div class="getinvest-col">
-						<div class="getinvest-item">
-							<div class="getinvest-item-img">
-								<img src="img/getinvest-item4.png" alt="">
-							</div>
-							<p class="getinvest-item-p">Техническую поддержку от<br> специалистов компании 24/7</p>
-						</div>
-					</div>
-					<div class="getinvest-col">
-						<div class="getinvest-item">
-							<div class="getinvest-item-img">
-								<img src="img/getinvest-item5.png" alt="">
-							</div>
-							<p class="getinvest-item-p">Гарантии легальности компании, есть все необходимые документы</p>
-						</div>
-					</div>
-					<div class="getinvest-col">
-						<div class="getinvest-item">
-							<div class="getinvest-item-img">
-								<img src="img/getinvest-item6.png" alt="">
-							</div>
-							<p class="getinvest-item-p">Возможность стать партнером компании и строить свой бизнес вместе с нами</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section> -->
 
 
 <section class="steps">

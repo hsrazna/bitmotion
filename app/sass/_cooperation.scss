@@ -1,4 +1,10 @@
 .cooperation{
+	background: url(../img/cooperation-bg.jpg) no-repeat center top;
+	clip-path: polygon(0 18%, 100% 0, 100% 82%, 0 100%);
+	padding-bottom: 230px;
+	padding-top: 250px;
+	min-height: 1050px;
+	margin-top: -20px;
 	@include desktop(480){
 		// display: none;
 	}
@@ -8,7 +14,7 @@
 	font-family: "MuseoSansCyrl-900";
 	font-size: 26px;
 	line-height: 38px;
-	color: #1a1a1a;
+	color: #fff;
 	font-weight: normal;
 	text-transform: uppercase;
 	text-align: left;
@@ -20,11 +26,16 @@
 	@include mobile(1200){
 		font-size: 41px;
 	}
+	@include desktop(992){
+		br{
+			display: none;
+		}
+	}
 }
 
 .cooperation-slider-wrap{
 	min-height: 475px;
-	background: #f0ac00;
+	background: #07b9f6;
 	margin: 0 -30px;
 	clip-path: polygon(0 58px, 100% 0, calc(100% - 63px) calc(100% - 27px), 67px 100%);
 	padding: 92px 130px 50px;
@@ -46,7 +57,7 @@
 		transform: translateY(-50%);
 		left: -65px;
 		&:hover{
-			background: url(../img/cooperation-left.png) no-repeat center;
+			background: url(../img/cooperation-left-hover.png) no-repeat center;
 		}
 		@include desktop(992){
 			left: -50px;
@@ -58,7 +69,7 @@
 		transform: translateY(-50%);
 		right: -65px;
 		&:hover{
-			background: url(../img/cooperation-right.png) no-repeat center;
+			background: url(../img/cooperation-right-hover.png) no-repeat center;
 		}
 		@include desktop(992){
 			right: -50px;
@@ -113,7 +124,7 @@
 	font-size: 20px;
 	// width: 50%;
 	line-height: 25px;
-	color: #1a1a1a;
+	color: #fff;
 	font-weight: normal;
 	text-transform: uppercase;
 	display: inline-block;
@@ -131,6 +142,7 @@
 	background: #fff;
 	padding: 20px 35px 10px;
 	position: relative;
+	border-radius: 5px;
 	&::after{
 		content: '';
 		width: 74px;
@@ -165,6 +177,9 @@
 	font-weight: normal;
 	margin: 0;
 	margin-bottom: 20px;
+	@include desktop(768){
+		color: #fff;
+	}
 }
 
 p.cooperation-slider-p{
@@ -174,6 +189,9 @@ p.cooperation-slider-p{
 	color: #1a1a1a;
 	font-weight: normal;
 	margin: 20px 0;
+	@include desktop(768){
+		color: #fff;
+	}
 	@include desktop(480){
 		display: none;
 		&:first-of-type{
