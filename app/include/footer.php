@@ -1,26 +1,19 @@
-<!-- <section class="digits">
+<section class="forwhom">
 	<div class="container">
-		<h2 class="digits-title">Цифры говорят больше слов</h2>
-		<div class="digits-row">
-			<div class="digits-col">
-				<b class="digits-num">$100500</b>
-				<p class="digits-p">в месяц зарабатываем<br> для наших инвесторов</p>
+		<h2 class="forwhom-title">Для кого эта система</h2>
+		<div class="forwhom-row">
+			<div class="forwhom-col">
+				<p class="forwhom-p">Для тех, кто устал от наемной работы и <strong>хочет начать свое дело</strong></p>
 			</div>
-			<div class="digits-col">
-				<b class="digits-num">2354345</b>
-				<p class="digits-p">человек уже являются<br> нашими инвесторами</p>
+			<div class="forwhom-col">
+				<p class="forwhom-p">Для тех, кто ищет <strong>новые ниши в бизнесе</strong></p>
 			</div>
-			<div class="digits-col">
-				<b class="digits-num">1023</b>
-				<p class="digits-p">успешных сделок в день<br> совершают наши трейдеры </p>
-			</div>
-			<div class="digits-col">
-				<b class="digits-num">$2354</b>
-				<p class="digits-p">средний доход наших<br> инвесторов</p>
+			<div class="forwhom-col">
+				<p class="forwhom-p">Для всех, кто хочет получить <strong>дополнительный источник дохода</strong></p>
 			</div>
 		</div>
 	</div>
-</section> -->
+</section>
 
 
 

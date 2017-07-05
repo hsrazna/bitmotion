@@ -1,0 +1,73 @@
+.forwhom{
+	margin-top: 130px;
+	@include desktop(992){
+		margin-top: 50px;
+	}
+}
+
+.forwhom-title{
+	font-family: "MuseoSansCyrl-900";
+	font-size: 26px;
+	line-height: 38px;
+	color: #1a1a1a;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+	@include mobile(992){
+		font-size: 33px;
+		line-height: 45px;
+	}
+	@include mobile(1200){
+		font-size: 41px;
+	}
+}
+
+.forwhom-row{
+	font-size: 0;
+	margin: 0 -15px;
+}
+
+.forwhom-col{
+	display: inline-block;
+	vertical-align: top;
+	width: 33.33%;
+	padding: 0 15px;
+	font-size: 0;
+	margin-top: 55px;
+	// @include desktop(1200){
+	// 	width: 50%;
+	// }
+	@include desktop(992){
+		width: 100%;
+	}
+	&::before, &::after{
+		content: '';
+		display: inline-block;
+		vertical-align: middle;
+		width: 36px;
+		height: 111px;
+		background: url(../img/forwhom-left.png) no-repeat center;
+	}
+	&::after{
+		background: url(../img/forwhom-right.png) no-repeat center;
+	}
+}
+
+.forwhom-p{
+	font-family: "AvenirNext-DemiBold";
+	font-size: 18px;
+	line-height: 25px;
+	color: #1a1a1a;
+	font-weight: normal;
+	margin: 0;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+	width: calc(100% - 72px);
+	padding: 0 10px;
+	strong{
+		font-weight: normal;
+		font-family: "AvenirNext-Bold";
+	}
+}
