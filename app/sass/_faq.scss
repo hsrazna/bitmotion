@@ -22,12 +22,19 @@
 // }
 
 .faq-item{
-	min-height: 230px;
+	min-height: 300px;
 	background: #fff;
-	padding: 25px 10px 2px;
+	padding: 25px 15px 10px;
 	margin-bottom: 20px;
 	text-align: center;
 	box-shadow: 2px 3px 50px rgba(0,0,0,.08);
+	@include desktop(1200){
+		min-height: 320px;
+	}
+	@include desktop(992){
+		min-height: 0px;
+		padding-bottom: 20px;
+	}
 }
 
 .faq-item-title{
@@ -43,14 +50,14 @@
 .faq-item-hr{
 	width: 164px;
 	height: 2px;
-	background: #fdb500;
+	background: #07b9f6;
 	margin: 10px auto;
 }
 
 .faq-item-p{
 	font-size: 16px;
 	line-height: 20px;
-	font-family: "AvenirNext-DemiBold";
+	font-family: "AvenirNext-Regular";
 	color: #1a1a1a;
 	margin: 0;
 	font-weight: normal;

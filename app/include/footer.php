@@ -365,43 +365,35 @@
 </section> -->
 
 
-<!-- <section class="faq">
+<section class="faq">
 	<div class="container">
-		<h2 class="faq-title">Ответы на часто задаваемые вопросы</h2>
+		<h2 class="faq-title">Ответы на часто задаваемые<br> вопросы о Bitmotion Club</h2>
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 				<div class="faq-item">
-					<h3 class="faq-item-title">Кто может стать инвестором?</h3>
+					<h3 class="faq-item-title">Кто может зарегистрироваться в Bitmotion Club?</h3>
 					<hr class="faq-item-hr">
-					<p class="faq-item-p">Любой человек, достигший 18 лет. Гражданство значения не имеет.<br> Для регистрации достаточно всего лишь ввести свое имя, email и телефон. Это бесплатно.</p>
+					<p class="faq-item-p">Любой человек, достигший 18 лет. Гражданство значения не имеет. Для регистрации достаточно всего лишь ввести свое имя, email и телефон. Это бесплатно.</p>
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 				<div class="faq-item">
-					<h3 class="faq-item-title">Как вывести доход?</h3>
+					<h3 class="faq-item-title">Как будет проходить обучение?</h3>
 					<hr class="faq-item-hr">
-					<p class="faq-item-p">Компания обрабатывает заявки на вывод в течение 72 часов с момента подачи заявки. Вывести доход Вы можете через Perfect Money, Адвакэр, Биткоин, Эфириум.</p>
+					<p class="faq-item-p">В системе Вас ждет 20 видеоуроков от трейдеров с опытом от 5-ти лет. Также к каждому видео будут предложены задания для практического закрепления материала.</p>
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 				<div class="faq-item">
-					<h3 class="faq-item-title">Есть ли ограничения на сумму вывода?</h3>
+					<h3 class="faq-item-title">Где я смогу применить эти знания, чтобы зарабатывать?</h3>
 					<hr class="faq-item-hr">
-					<p class="faq-item-p">Нет, Вы можете вывести<br> любую сумму.</p>
+					<p class="faq-item-p">Вы сможете применить их в инвестиционных компаниях и на рынке криптовалют. Кроме того, у Вас будет возможность построить свой бизнес прямо внутри системы Bitmotion Club. О том, как это сделать, Вы также узнаете во время обучения.</p>
 				</div>
 			</div>
 		</div>
 	</div>
-</section> -->
+</section>
 
-
-<!-- <footer class="footer">
-	<div class="container">
-		<div class="footer-logo">
-			<img src="img/footer-logo.png" alt="CRYP TRADE CAPITAL">
-		</div>
-	</div>
-</footer> -->
 
 
 <footer class="footer">
