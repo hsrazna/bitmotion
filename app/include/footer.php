@@ -405,5 +405,39 @@
 
 
 <footer class="footer">
-	
+	<div class="footer-bg"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 pull-right">
+				<h2 class="footer-title">Вы дочитали до конца и еще не приняли решение?</h2>
+				<hr class="footer-line">
+				<p class="footer-p">Это объяснимая реакция. Ведь такая система, как Bitmotion Club, впервые появилась на рынке.</p>
+				<b class="footer-subtitle">Но подумайте вот о чем:</b>
+				<p class="footer-subtitle-p">Вы наверняка хотите увеличить доход, а в идеале - сделать его пассивным. Однако найти стоящее решение сегодня непросто. И в такой ситуации у Вас есть 2 варианта:</p>
+				<div class="footer-yes-no row">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<p class="footer-no">Опустить руки и решить, что инвестирование - это сложно, а пассивный доход - лишь красивые сказки бизнес-гуру. </p>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<p class="footer-yes">Или прямо сейчас пройти регистрацию и бесплатно получить все знания для работы и построения бизнеса будущего на рынке инвестиций и криптовалют.</p>
+					</div>
+				</div>
+				<div class="footer-reg row">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<a href="#" class="header-link footer-link">
+							<span>зарегистрироваться</span>
+						</a>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 footer-center">
+						<span class="footer-second">Вы за второй вариант?<br> Тогда кликайте!</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<div class="footer-logo">
+					<img src="img/footer-logo.png" alt="BITMOTION CLUB">
+				</div>
+			</div>
+		</div>
+	</div>
 </footer>
