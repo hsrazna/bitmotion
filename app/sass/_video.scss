@@ -5,10 +5,10 @@
 
 .video-title{
 	position: relative;
-	color: #1a1a1a;
+	color: #fff;
 	text-transform: uppercase;
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 33%;
 	margin-bottom: 15px;
 	&::before{
 		position: absolute;
@@ -16,7 +16,7 @@
 		width: 100%;
 		max-width: 360px;
 		height: 3px;
-		background: #fdb500;
+		background: #06baf6;
 		left: 50%;
 	    bottom: -10%;
 	    transform: translate(-50%, -50%);
@@ -25,18 +25,18 @@
 		}
 	}
 	@include mobile(992){
-		margin-top: 75px;
+		margin-top: 33%;
 		margin-bottom: 30px;
 	}
 	@include mobile(1600){
-		margin-top: 100px;
+		margin-top: 33%;
 		margin-bottom: 40px;
 	}
 }
 .video-subtitle{
 	display: block;
 	font-family: AvenirNext-DemiBold;
-	color: #1a1a1a;
+	color: #fff;
 	font-size: 16px;
 	line-height: 25px;
 	text-align: center;
@@ -75,22 +75,34 @@
 		font-size: 20px;
 	}
 }
+.video-viewdiv1{
+	width: 100%;
+	max-width: 1135px;
+	height: 943px;
+	padding-top: 20px;
+	background: url(../img/videomac.png) top center no-repeat;
+	// box-shadow: 0 0 62px rgba(7, 185, 246, 0.35);
+}
 .video-viewdiv{
 	display: block;
 	width: 100%;
 	height: 400px;
 	margin: 0px auto;
-	box-shadow: 1.5px 2.6px 61.6px 17.4px rgba(0, 0, 0, 0.26);
+	// box-shadow: 1.5px 2.6px 61.6px 17.4px rgba(0, 0, 0, 0.26);
 	@include mobile(992){
-		width: 946px;
-		height: 555px;
+		width: 1054px;
+		height: 617px;
 	}
 	iframe{
 		width: 100%;
 		height: 100%;
 	}
 }
-
+.videobox{
+	position: relative;
+	z-index: 50;
+	margin-top: -55%;
+}
 
 
 
