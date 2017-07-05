@@ -8,7 +8,13 @@
 	background:transparent url('../img/box-fon.jpg') center top no-repeat;
 	background-size: cover;
 	clip-path: none;
+	// height: 1280px;
 	height: auto;
+	padding: 20px 0px;
+	@include mobile(992){
+		height: 450px;
+		padding: 0px 0px;
+	}
 	@include mobile(1200){
 		height: 1280px;
 		background-size: auto;
@@ -71,37 +77,40 @@
     position: relative;
     z-index: 20;
     text-align: center;
+    @include mobile(992){
+		margin-top: 4%;
+	}
     @include mobile(1200){
-		margin-top: -14%;
+		margin-top: 5%;
 	}
 }
 .whyinvestment-linkbox-left{
-	display: block;
-	width: 100%;
+	display: inline-block;
+	width: 50%;
 	max-width: none;
-	height: auto;
-	background: #fdb500;
-	vertical-align: top;
-	text-align: center;
-	padding: 10px 10px;
-	@include mobile(480){
-		height: 109px;
-		padding: 0px 0px;
-	}
-	@include mobile(768){
-		display: inline-block;
-		width: 100%;
-		max-width: 450px;
-	}
-	@include mobile(992){
-		background: url('../img/whyinvest-img.png') center center no-repeat;
-		max-width: 654px;
-	}
+	// height: auto;
+	// background: #fdb500;
+	vertical-align: middle;
+	// text-align: center;
+	// padding: 10px 10px;
+	// @include mobile(480){
+	// 	height: 109px;
+	// 	padding: 0px 0px;
+	// }
+	// @include mobile(768){
+	// 	display: inline-block;
+	// 	width: 100%;
+	// 	max-width: 450px;
+	// }
+	// @include mobile(992){
+	// 	background: url('../img/whyinvest-img.png') center center no-repeat;
+	// 	max-width: 654px;
+	// }
 }
 .whyinvestment-link{
 	display: block;
 	width: 100%;
-	vertical-align: top;
+	vertical-align: middle;
 	padding-left: 0px;
 	@include mobile(768){
 		display: inline-block;
@@ -115,17 +124,18 @@
 }
 .whyinvestment-linkbox-text{
 	display: inline-block;
-	font-family: AvenirNext-DemiBold;
-	color: #1d1d1d;
-	font-size: 16px;
+	font-family: MuseoSansCyrl-700;
+	color: #000;
+	font-size: 18px;
 	line-height: 30px;
-	margin-top: 0px;
 	@include mobile(480){
-		font-size: 20px;
-		margin-top: 20px;
+		font-size: 22px;
 	}
-	@include mobile(992){
-		font-size: 25px;
+	@include mobile(768){
+		font-size: 24px;
+	}
+	@include mobile(1200){
+		font-size: 28px;
 	}
 }
 

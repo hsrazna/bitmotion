@@ -8,8 +8,8 @@
 	color: #fff;
 	text-transform: uppercase;
 	text-align: center;
-	margin-top: 33%;
-	margin-bottom: 15px;
+	margin-top: 12%;
+	margin-bottom: 30px;
 	&::before{
 		position: absolute;
 		content: "";
@@ -25,11 +25,14 @@
 		}
 	}
 	@include mobile(992){
-		margin-top: 33%;
+		margin-top: 10%;
 		margin-bottom: 30px;
 	}
-	@include mobile(1600){
+	@include mobile(1200){
 		margin-top: 33%;
+	}
+	@include mobile(1600){
+		margin-top: 21%;
 		margin-bottom: 40px;
 	}
 }
@@ -77,11 +80,18 @@
 }
 .video-viewdiv1{
 	width: 100%;
-	max-width: 1135px;
-	height: 943px;
+	max-width: none;
+	height: auto;
 	padding-top: 20px;
 	background: url(../img/videomac.png) top center no-repeat;
+	background-size: cover;
+	padding-bottom: 140px;
 	// box-shadow: 0 0 62px rgba(7, 185, 246, 0.35);
+	@include mobile(1200){
+		max-width: 1135px;
+		height: 943px;
+		padding-bottom: 0px;
+	}
 }
 .video-viewdiv{
 	display: block;
@@ -90,6 +100,10 @@
 	margin: 0px auto;
 	// box-shadow: 1.5px 2.6px 61.6px 17.4px rgba(0, 0, 0, 0.26);
 	@include mobile(992){
+		width: 875px;
+		height: 508px;
+	}
+	@include mobile(1200){
 		width: 1054px;
 		height: 617px;
 	}
@@ -99,13 +113,37 @@
 	}
 }
 .videobox{
+	display: none;
 	position: relative;
 	z-index: 50;
-	margin-top: -55%;
+	margin-top: -20%;
+	@include mobile(992){
+		display: block;
+		margin-top: -20%;
+	}
+	@include mobile(1200){
+		margin-top: -55%;
+	}
 }
-
-
-
+.videobox1{
+	display: block;
+	margin-top: 20px;
+	@include mobile(992){
+		display: none;
+		margin-top: 0px;
+	}
+}
+.video-linkbox-text{
+	color: #fff;
+	@include mobile(992){
+		color: #000;
+	}
+}
+.video-link{
+	@include mobile(768){
+		margin-top: 0px;
+	}
+}
 
 
 
