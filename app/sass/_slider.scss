@@ -7,10 +7,9 @@
 .slider{
 	position: relative;
 	z-index: 5;
-
-	padding-top: 5%;
-	@include mobile(1200){
-		padding-top: 20%;
+	padding-top: 0px;
+	@include mobile(768){
+		padding-top: 80px;
 	}
 }
 .slider-wrapp{
@@ -37,9 +36,6 @@
 		@include mobile(992){
 			bottom: -15%;
 		}
-
-// background: #ccc;
-// outline: 1px solid red;
 
 		.owl-dot{
 			display: inline-block;
@@ -103,7 +99,7 @@
 		line-height: 45px;
 	}
 	span{
-		color: #fdb500;
+		color: #06baf6;
 	}
 }
 .slider-bitcoin{
@@ -115,7 +111,7 @@
 	width: 100%;
 	max-width: 224px;
 	height: 91px;
-	background: #fdb500;
+	background: #06baf6;
 	font-family: MuseoSansCyrl-900;
 	color: #000;
 	font-size: 35px;

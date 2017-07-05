@@ -7,25 +7,136 @@
 
 
 
+
+
+
+
+
+
+.registr-item{
+	padding: 45px 10px;
+	@include mobile(768){
+		padding: 45px 0px;
+	}
+}
+.registr-lastitem{
+	position: relative;
+	&::before{
+		position: absolute;
+		content: "";
+		background: none;
+		width: 94px;
+		height: 100px;
+		left: -80px;
+		bottom: -85px;
+		@include mobile(768){
+			background: url(../img/header-item-arr.png);
+		}
+	}
+}
+.registr-text{
+	display: block;
+	font-family: AvenirNext-Regular;
+	color: black;
+	font-size: 18px;
+	line-height: 22px;
+	margin-top: 25px;
+}
+.registr-span{
+	display: block;
+	font-family: "MuseoSansCyrl-700";
+	color: #000;
+	font-size: 21px;
+	line-height: 22px;
+	text-transform: uppercase;
+	span{
+		font-family: "MuseoSansCyrl-900";
+	}
+}
+.registr-title{
+	margin-bottom: 30px !important;
+}
+.rbrb{
+	display: none;
+	@include mobile(1200){
+		display: inline;
+	}
+}
+.header-topline{
+	text-align: center;
+	@include mobile(1200){
+		text-align: left;
+	}
+}
 .header-titlewrapp{
 	display: block;
 	width: 100%;
-	max-width: 635px;
+	max-width: unset;
 	position: relative;
-	margin-top: 11%;
+	margin-top: 7%;
+	text-align: center;
+	@include mobile(1200){
+		margin-top: 7%;
+		max-width: 635px;
+		text-align: left;
+	}
+	@include mobile(1600){
+		margin-top: 11%;
+	}
 }
 .header-subtitle{
-	position: absolute;
-	bottom: -37px;
-	right: -10px;
+	position: unset;
+	bottom: unset;
+	right: unset;
 	font-family: "MuseoSansCyrl-500";
 	color: #fff;
-	font-size: 28px;
+	font-size: 22px;
 	line-height: 30px;
-	border-left: 2px solid #009fe4;
-	padding-left: 30px;
+	border-left: none;
+	padding-left: 0px;
+	margin-top: 10%;
+	display: block;
+	@include mobile(992){
+		margin-top: 0;
+		font-size: 28px;
+	}
+	@include mobile(992){
+		font-size: 28px;
+	}
+	@include mobile(1200){
+		position: absolute;
+		bottom: -37px;
+		right: -10px;
+		right: 55px;
+		font-size: 24px;
+		padding-left: 20px;
+		border-left: 2px solid #009fe4;
+		padding-left: 30px;
+	}
+	@include mobile(1600){
+		right: -10px;
+		font-size: 28px;
+		padding-left: 30px;
+	}
 }
-
+.header-imgbox{
+	display: none;
+	float: right;
+	position: relative;
+	z-index: 50;
+	margin-top: -57%;
+	@include mobile(1200){
+		display: block;
+	}
+	@include mobile(1200){
+		margin-top: -75%;
+		right: -5%;
+	}
+	@include mobile(1600){
+		margin-top: -57%;
+		right: 0;
+	}
+}
 
 
 /*****************************************************/
@@ -38,7 +149,17 @@
 	border-radius: 32px;
 	box-shadow: 0 0 20.4px 3.6px rgba(40, 192, 224, 0.42);
 	padding: 10px 11px;
-	margin: 30px auto;
+	margin: 0 auto;
+	margin-top: 30px;
+	@include mobile(992){
+		margin-top: 100px;
+	}
+	@include mobile(1200){
+		margin-top: -75%;
+		right: -5%;
+		margin: 0;
+		margin-top: 100px;
+	}
 	&:hover, &:active, &:focus{
 		text-decoration: none; 
 	}
@@ -71,14 +192,18 @@
 	display: inline-block;
 	vertical-align: top;
 	width: 100%;
-	max-width: 150px;
+	max-width: unset;
 	text-align: center;
-	margin: 30px 12px;
+	margin: 30px 0px;
+	@include mobile(768){
+		max-width: 214px;
+		margin: 30px 12px;
+	}
 	@include mobile(992){
-		max-width: 209px;
+		max-width: 285px;
 	}
 	@include mobile(1200){
-		max-width: 258px;
+		max-width: 350px;
 	}
 }
 /*****/
@@ -87,16 +212,16 @@
 	font-family: "MuseoSansCyrl-900";
 	text-shadow: 1.5px 2.6px 8.6px rgba(0, 0, 0, 0.35);
 	text-transform: uppercase;
-	font-size: 19px;
+	font-size: 22px;
 	line-height: 32px;
 	text-transform: uppercase;
 	color: #fff;
 	@include mobile(480){
-		font-size: 20px;
+		font-size: 22px;
 		line-height: 32px;
 	}
 	@include mobile(768){
-		font-size: 26px;
+		font-size: 28px;
 		line-height: 45px;
 	}
 	@include mobile(992){
@@ -124,8 +249,6 @@
 		font-size: 18px;
 	}
 }
-
-
 .header-logobox{
 	display: inline-block;
 	vertical-align: middle;

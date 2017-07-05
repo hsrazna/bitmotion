@@ -1,6 +1,5 @@
 <section class="slider">
     <div class="container">
-		<span class="slider-title">На этом фоне все большую популярность приобретают криптовалюты</span>
 		<div class="slider-wrapp">
 			<span class="slider-bitcoin">bitcoin</span>
 			<div class="slider-box">

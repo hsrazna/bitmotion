@@ -11,12 +11,12 @@
 	height: auto;
 	@include mobile(1200){
 		height: 1402px;
-		background-size: none;
+		background-size: auto;
 		clip-path: polygon(0 18%, 100% 0, 100% 82%, 0 100%);
-		margin-top: -21%;
+		margin-top: -20%;
 	}
 	@include mobile(1600){
-		margin-top: -23%;
+		margin-top: -10%;
 	}
 }
 .whyinvestment-title{

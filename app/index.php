@@ -40,7 +40,6 @@
 	<?php require_once "include/header.php"; ?>
 	<?php require_once "include/slider.php"; ?>
 	<?php require_once "include/whyinvestment.php"; ?>
-	<?php require_once "include/video.php"; ?>
 	<?php require_once "include/footer.php"; ?>
 
 	<div class="hidden">
