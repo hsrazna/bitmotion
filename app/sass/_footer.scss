@@ -1,8 +1,191 @@
+.footer{
+	padding-top: 325px;
+	margin-top: -200px;
+	// clip-path: polygon(0 18%, 100% 0, 100% 82%, 0 100%);
+	// background: url(../img/footer-bg.jpg) no-repeat center top;
+	min-height: 1050px;
+	margin-bottom: 50px;
+	position: relative;
+	z-index: -1;
+	@include desktop(992){
+		background: url(../img/footer-bg.jpg) no-repeat center top;
+		background-size: cover;
+		padding-top: 50px;
+		margin-top: 50px;
+		margin-bottom: 0;
+	}
+}
+
+.footer-bg{
+	min-height: 1050px;
+	clip-path: polygon(0 18%, 100% 0, 100% 82%, 0 100%);
+	background: url(../img/footer-bg.jpg) no-repeat center top;
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	top: 0;
+	left: 0;
+	@include desktop(992){
+		display: none;
+	}
+}
+
+
 .footer-logo{
 	text-align: center;
-	padding: 105px 0 70px;
+	padding: 0;
 	img{
 		max-width: 100%;
 		height: auto;
 	}
+	@include desktop(992){
+		margin: 30px 0;
+	}
+}
+
+.footer-title{
+	font-family: "MuseoSansCyrl-900";
+	font-size: 26px;
+	line-height: 38px;
+	color: #fff;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+	@include mobile(992){
+		font-size: 33px;
+		line-height: 45px;
+		text-align: left;
+	}
+	@include mobile(1200){
+		font-size: 41px;
+	}
+}
+
+.footer-line{
+	width: 100%;
+	height: 3px;
+	background: #07b9f6;
+	border: 0;
+	max-width: 360px;
+	margin: 10px 0;
+	@include desktop(992){
+		margin: 10px auto;
+	}
+}
+
+.footer-p{
+	font-family: "AvenirNext-DemiBold";
+	font-size: 20px;
+	line-height: 25px;
+	color: #fff;
+	max-width: 490px;
+	margin: 20px 0;
+	@include desktop(992){
+		margin: 20px auto;
+		text-align: center;
+	}
+}
+
+.footer-subtitle{
+	font-family: "MuseoSansCyrl-900";
+	font-size: 25px;
+	line-height: 45px;
+	color: #fff;
+	display: block;
+	margin: 60px 0 20px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.footer-subtitle-p{
+	font-family: "AvenirNext-DemiBold";
+	font-size: 16px;
+	line-height: 20px;
+	color: #fff;
+	margin: 20px 0;
+	padding: 8px 25px 10px;
+	border: 3px solid #07b9f6;
+	border-radius: 4px;
+}
+
+.footer-yes-no{
+	margin-top: 35px;
+}
+
+.footer-no{
+	padding-left: 55px;
+	background: url(../img/footer-cross.png) no-repeat left top 3px;
+	max-width: 330px;
+	font-family: "AvenirNext-DemiBold";
+	font-size: 16px;
+	line-height: 20px;
+	color: #fff;
+	margin-bottom: 20px;
+	@include desktop(768){
+		max-width: 500px;
+		margin: 0 auto 20px;
+	}
+}
+
+.footer-yes{
+	padding-left: 55px;
+	background: url(../img/footer-yes.png) no-repeat left top 3px;
+	max-width: 300px;
+	font-family: "AvenirNext-DemiBold";
+	font-size: 16px;
+	line-height: 20px;
+	color: #fff;
+	margin-bottom: 20px;
+	@include desktop(768){
+		max-width: 500px;
+		margin: 0 auto 20px;
+	}
+}
+
+.footer-reg{
+	margin-top: 50px;
+}
+
+.footer-center{
+	text-align: center;
+}
+
+.footer-second{
+	font-family: "MuseoSansCyrl-700";
+	font-size: 26px;
+	line-height: 30px;
+	color: #171717;
+	display: inline-block;
+	margin-top: 15px;
+	position: relative;
+	&::before{
+		content: '';
+		position: absolute;
+		bottom: -40px;
+		left: -35px;
+		width: 134px;
+		height: 32px;
+		background: url(../img/footer-second-arrow.png) no-repeat center;
+	}
+	@include desktop(992){
+		color: #fff;
+	}
+	@include desktop(768){
+		&::before{
+			transform: rotate(90deg);
+			bottom: 60px;
+			left: -105px;
+		}
+	}
+	@include desktop(480){
+		&::before{
+			bottom: 60px;
+			left: -95px;
+		}
+	}
+}
+
+.header-link.footer-link{
+	margin-top: 0;
 }
