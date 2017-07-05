@@ -187,7 +187,7 @@
 </section> -->
 
 
-<!-- <section class="steps">
+<section class="steps">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -198,7 +198,7 @@
 							<b class="spets-item-left">1</b>
 							<div class="spets-item-right">
 								<h3 class="steps-item-title">Регистрация</h3>
-								<p class="steps-item-p">Зарегистрируйтесь бесплатно прямо на этой странице, кликнув по кнопке</p>
+								<p class="steps-item-p">Кликните по кнопке и оставьте свои контактные данные</p>
 							</div>
 						</div>
 						<a href="#" class="header-link steps-link">
@@ -209,8 +209,8 @@
 						<div class="spets-item">
 							<b class="spets-item-left">2</b>
 							<div class="spets-item-right">
-								<h3 class="steps-item-title">Знакомство</h3>
-								<p class="steps-item-p">С Вами свяжется агент, чтобы ознакомить с условиями сотрудничества. Либо Вы изучите их в системе самостоятельно</p>
+								<h3 class="steps-item-title">Получите доступ</h3>
+								<p class="steps-item-p">На указанный email Вам придет доступ к системе</p>
 							</div>
 						</div>
 					</div>
@@ -218,8 +218,8 @@
 						<div class="spets-item">
 							<b class="spets-item-left">3</b>
 							<div class="spets-item-right">
-								<h3 class="steps-item-title">Регистрация</h3>
-								<p class="steps-item-p">На этом этапе Вы передаете средства в управление трейдерам и они начинают работу</p>
+								<h3 class="steps-item-title">Знакомство</h3>
+								<p class="steps-item-p">Ознакомьтесь с системой, внутри Вы найдете все разъяснения</p>
 							</div>
 						</div>
 					</div>
@@ -227,8 +227,8 @@
 						<div class="spets-item">
 							<b class="spets-item-left">4</b>
 							<div class="spets-item-right">
-								<h3 class="steps-item-title">Прибыль</h3>
-								<p class="steps-item-p">2 раза в месяц Вам на баланс начисляется прибыль, которую вы можете вывести в любое время </p>
+								<h3 class="steps-item-title">Обучение</h3>
+								<p class="steps-item-p">Приступайте к обучению и получите все необходимые знания для работы с инвестициями и криптовалютами</p>
 							</div>
 						</div>
 					</div>
@@ -236,133 +236,8 @@
 			</div>
 		</div>
 	</div>
-</section> -->
+</section>
 
-
-<!-- <section class="paket">
-	<div class="container">
-		<h2 class="paket-title">Выберите свой пакет инвестиций</h2>
-		<div class="row">
-			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-				<div class="paket-item paket-item1">
-					<b class="paket-item-title">cryptrade</b>
-					<h3 class="paket-item-name">STANDART</h3>
-					<div class="paket-item-yellow">
-						<div class="paket-item-yellow-col">
-							<b class="paket-item-percent">0.59%</b>
-							<p class="paket-item-p">в день</p>
-						</div>
-						<div class="paket-item-yellow-col">
-							<b class="paket-item-percent">17,7%</b>
-							<p class="paket-item-p">в месяц</p>
-						</div>
-						<div class="paket-item-yellow-col">
-							<b class="paket-item-percent">215,35%</b>
-							<p class="paket-item-p">в год</p>
-						</div>
-					</div>
-					<b class="paket-price">$969</b>
-					<div class="paket-slide">
-						<div class="paket-slide-progress" style="width: 67%;">
-							<div class="paket-slide-handle"></div>
-						</div>
-					</div>
-					<div class="paket-income">
-						<div class="paket-income-col">
-							<b class="paket-income-dol">$5,7</b>
-							<p class="paket-income-p">Ежедневная<br> прибыль</p>
-						</div>
-						<div class="paket-income-col">
-							<b class="paket-income-dol paket-income-dol_black">$2086,7</b>
-							<p class="paket-income-p">Совокупный<br> доход</p>
-						</div>
-					</div>
-					<a href="#" class="header-link paket-link">
-						<span>выбрать план</span>
-					</a>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-				<div class="paket-item paket-item2">
-					<b class="paket-item-title">cryptrade</b>
-					<h3 class="paket-item-name">mega</h3>
-					<div class="paket-item-yellow">
-						<div class="paket-item-yellow-col">
-							<b class="paket-item-percent">0.79%</b>
-							<p class="paket-item-p">в день</p>
-						</div>
-						<div class="paket-item-yellow-col">
-							<b class="paket-item-percent">23,7%</b>
-							<p class="paket-item-p">в месяц</p>
-						</div>
-						<div class="paket-item-yellow-col">
-							<b class="paket-item-percent">288,35%</b>
-							<p class="paket-item-p">в год</p>
-						</div>
-					</div>
-					<b class="paket-price">$6000</b>
-					<div class="paket-slide">
-						<div class="paket-slide-progress" style="width: 67%;">
-							<div class="paket-slide-handle"></div>
-						</div>
-					</div>
-					<div class="paket-income">
-						<div class="paket-income-col">
-							<b class="paket-income-dol">$47,4</b>
-							<p class="paket-income-p">Ежедневная<br> прибыль</p>
-						</div>
-						<div class="paket-income-col">
-							<b class="paket-income-dol paket-income-dol_black">$17301</b>
-							<p class="paket-income-p">Совокупный<br> доход</p>
-						</div>
-					</div>
-					<a href="#" class="header-link paket-link">
-						<span>выбрать план</span>
-					</a>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-				<div class="paket-item paket-item3">
-					<b class="paket-item-title">cryptrade</b>
-					<h3 class="paket-item-name">vip</h3>
-					<div class="paket-item-yellow">
-						<div class="paket-item-yellow-col">
-							<b class="paket-item-percent">0.99%</b>
-							<p class="paket-item-p">в день</p>
-						</div>
-						<div class="paket-item-yellow-col">
-							<b class="paket-item-percent">29.7%</b>
-							<p class="paket-item-p">в месяц</p>
-						</div>
-						<div class="paket-item-yellow-col">
-							<b class="paket-item-percent">361,35%</b>
-							<p class="paket-item-p">в год</p>
-						</div>
-					</div>
-					<b class="paket-price">$12000</b>
-					<div class="paket-slide">
-						<div class="paket-slide-progress" style="width: 67%;">
-							<div class="paket-slide-handle"></div>
-						</div>
-					</div>
-					<div class="paket-income">
-						<div class="paket-income-col">
-							<b class="paket-income-dol">$118,8</b>
-							<p class="paket-income-p">Ежедневная<br> прибыль</p>
-						</div>
-						<div class="paket-income-col">
-							<b class="paket-income-dol paket-income-dol_black">$43362</b>
-							<p class="paket-income-p">Совокупный<br> доход</p>
-						</div>
-					</div>
-					<a href="#" class="header-link paket-link">
-						<span>выбрать план</span>
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</section> -->
 
 
 <section class="faq">
