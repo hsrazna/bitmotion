@@ -15,7 +15,7 @@
 					<span class="header-subtitle">обучения и работы <br class="rbrb">на рынке инвестирования <br class="rbrb">и криптовалют</span>
 				</div>
 				<div class="header-linkbox">
-					<a href="#" class="header-link">
+					<a href="#call-back" class="header-link popup-with-move-anim">
 						<span>Хочу инвестировать</span>
 					</a>
 				</div>

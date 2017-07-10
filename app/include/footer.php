@@ -144,7 +144,7 @@
 								<p class="steps-item-p">Кликните по кнопке и оставьте свои контактные данные</p>
 							</div>
 						</div>
-						<a href="#" class="header-link steps-link">
+						<a href="#call-back" class="header-link steps-link popup-with-move-anim">
 							<span>Хочу инвестировать</span>
 						</a>
 					</div>
@@ -234,7 +234,7 @@
 				</div>
 				<div class="footer-reg row">
 					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-						<a href="#" class="header-link footer-link">
+						<a href="#call-back" class="header-link footer-link popup-with-move-anim">
 							<span>зарегистрироваться</span>
 						</a>
 					</div>

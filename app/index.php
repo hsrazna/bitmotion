@@ -21,7 +21,7 @@
 	<link rel="stylesheet" href="libs/bootstrap-grid/bootstrap-grid.css">
 	<link rel="stylesheet" href="libs/font-awesome.min.css">
 	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css">
-	<!-- <link rel="stylesheet" href="libs/jscrollpane/jquery.jscrollpane.css"> -->
+	<link rel="stylesheet" href="libs/magnific-popup/dist/magnific-popup.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
 	<link rel="stylesheet" href="css/main.min.css">
 
@@ -42,23 +42,33 @@
 	<?php require_once "include/whyinvestment.php"; ?>
 	<?php require_once "include/footer.php"; ?>
 
-	<div class="hidden">
-		<!-- <form id="small-dialog" class="zoom-anim-dialog common-form">
-			<div class="ah-upimg">
-				<img src="img/ah-popimg.png" style="width: 110px; height: 120px;" alt="ah-popimg.png">
-			</div>
-			<span class="form-title">ОСТАВЬТЕ ЗАЯВКУ</span>
-			<span class="form-subtitle">И НАШ МЕНЕДЖЕР СВЯЖЕТСЯ С ВАМИ В ТЕЧЕНИИ ОДНОЙ МИНУТЫ</span>
-			<input type="text" class="phone" name="tel" placeholder="+7 (___) ___-__-__">
-			<input type="submit" value="ОСТАВИТЬ ЗАЯВКУ">
-		</form> -->
+	<div id="call-back" class="popup zoom-anim-dialog mfp-hide">
+		<h2 class="popup-title">Оставьте<br> заявку сейчас</h2>
+		<hr class="popup-hr popup-hr1">
+		<p class="popup-p">и получите возможность начать<br> инвестировать уже сегодня</p>
+		<form action="/">
+			<input type="text" name="" id="" class="popup-input" placeholder="Как Вас зовут?">
+			<input type="text" name="" id="" class="popup-input" placeholder="E-mail" value="E-mail">
+			<label class="popup-checkbox">
+				<input type="checkbox" name=""><span></span>
+				Согласен с обработкой <a href="#" class="popup-link popup-link1">персональных данных</a>
+			</label>
+			<button type="submit" class="header-link popup-submit"><span>оставить заявку</span></button>
+		</form>
+	</div>
+
+	<div id="thanks" class="popup popup_pad zoom-anim-dialog mfp-hide">
+		<div class="popup-img">
+			<img src="img/popup-thanks.png" alt="">
+		</div>
+		<h2 class="popup-title">заявка успешно отправлена</h2>
+		<hr class="popup-hr">
+		<p class="popup-p">На Вашу почту отправлено письмо с дальнейшими действиями, в ближайшее время с Вами свяжется наставник и расскажет дальнейшие шаги в системе</p>
 	</div>
 
 	<script src="libs/jquery/dist/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
-	<!-- <script src="libs/jscrollpane/jquery.jscrollpane.min.js"></script> -->
-
-	<!-- <script src="libs/bootstrap/bootstrap.min.js"></script> -->
+	<script src="libs/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
 	<script src="libs/owl.carousel/owl.carousel.min.js"></script>
 	<script src="js/scripts.min.js"></script>
 

@@ -11,7 +11,7 @@
 					<span class="whyinvestment-linkbox-text video-linkbox-text">Хотите начать обучение? Кликайте</span>
 				</div>
 				<div class="whyinvestment-link">
-					<a href="#" class="header-link video-link">
+					<a href="#call-back" class="header-link video-link popup-with-move-anim">
 						<span>Хочу инвестировать</span>
 					</a>
 				</div>
@@ -30,7 +30,7 @@
 					<span class="whyinvestment-linkbox-text">Хотите начать обучение? Кликайте</span>
 				</div>
 				<div class="whyinvestment-link">
-					<a href="#" class="header-link video-link">
+					<a href="#call-back" class="header-link video-link popup-with-move-anim">
 						<span>Хочу инвестировать</span>
 					</a>
 				</div>

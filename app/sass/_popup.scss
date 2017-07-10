@@ -1,0 +1,183 @@
+.popup{
+	width: 100%;
+	max-width: 456px;
+	background: #fff;
+	padding: 40px 66px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+	// margin: 20px auto 200px;
+	min-height: 542px;
+}
+
+.popup_pad{
+	padding: 56px 30px 60px;
+}
+
+.popup-title{
+	font-family: "MuseoSansCyrl-900";
+	font-size: 26px;
+	line-height: 38px;
+	color: #000;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 -15px;
+	@include mobile(992){
+		font-size: 33px;
+		line-height: 45px;
+	}
+	@include mobile(1200){
+		font-size: 41px;
+	}
+}
+
+.popup-hr{
+	width: 260px;
+	height: 4px;
+	background: #fdb500;
+	margin: 10px auto;
+}
+
+.popup-p{
+	font-size: 20px;
+	line-height: 25px;
+	font-family: "AvenirNext-Regular";
+	color: #000;
+	margin: 25px 0 40px;
+	font-weight: normal;
+	text-align: center;
+}
+
+.popup-input{
+	display: block;
+	width: 100%;
+	height: 52px;
+	border: 0;
+	font-size: 15px;
+	padding: 0 20px;
+	font-family: "AvenirNext-Regular";
+	color: #000;
+	margin: 0 0 20px;
+	box-shadow: 0 0 38px rgba(0,0,0,.11);
+}
+
+.popup-checkbox{
+	display: block;
+	font-family: "AvenirNext-Regular";
+	color: #000;
+	font-size: 13px;
+	line-height: 25px;
+	margin: 0 0 20px;
+	input[type="checkbox"]{
+		display: none;
+	}
+	input[type="checkbox"] + span{
+		width: 18px;
+		height: 18px;
+		border-radius: 3px;
+		display: inline-block;
+		vertical-align: middle;
+		background-color: #e0e0e0;
+		margin-right: 10px;
+	}
+	input[type="checkbox"]:checked + span{
+		background-image: url(../img/popup-checkbox.png);
+		background-repeat: no-repeat;
+		background-position: 3px 3px;
+	}
+}
+
+.popup-link{
+	font-family: "AvenirNext-Regular";
+	color: #fdb500;
+	font-size: 13px;
+	line-height: 25px;
+	text-decoration: underline;
+	&:active, &:focus{
+		color: #fdb500;
+		text-decoration: underline;
+	}
+	&:hover{
+		color: #fdb500;
+		text-decoration: none;
+	}
+}
+
+.header-link.popup-submit{
+	border: 0;
+	margin-top: 18px;
+	margin-bottom: 0;
+
+}
+
+.popup-img{
+	text-align: center;
+	margin-bottom: 40px;
+	img{
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+
+
+
+
+/**
+ * Fade-move animation for second dialog
+ */
+
+/* at start */
+.my-mfp-slide-bottom .zoom-anim-dialog {
+	margin: 40px auto;
+	opacity: 0;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+
+	-webkit-transform: translateY(-20px) perspective( 600px ) rotateX( 10deg );
+	-moz-transform: translateY(-20px) perspective( 600px ) rotateX( 10deg );
+	-ms-transform: translateY(-20px) perspective( 600px ) rotateX( 10deg );
+	-o-transform: translateY(-20px) perspective( 600px ) rotateX( 10deg );
+	transform: translateY(-20px) perspective( 600px ) rotateX( 10deg );
+
+}
+
+/* animate in */
+.my-mfp-slide-bottom.mfp-ready .zoom-anim-dialog {
+	opacity: 1;
+	-webkit-transform: translateY(0) perspective( 600px ) rotateX( 0 ); 
+	-moz-transform: translateY(0) perspective( 600px ) rotateX( 0 ); 
+	-ms-transform: translateY(0) perspective( 600px ) rotateX( 0 ); 
+	-o-transform: translateY(0) perspective( 600px ) rotateX( 0 ); 
+	transform: translateY(0) perspective( 600px ) rotateX( 0 ); 
+}
+
+/* animate out */
+.my-mfp-slide-bottom.mfp-removing .zoom-anim-dialog {
+	opacity: 0;
+
+	-webkit-transform: translateY(-10px) perspective( 600px ) rotateX( 10deg ); 
+	-moz-transform: translateY(-10px) perspective( 600px ) rotateX( 10deg ); 
+	-ms-transform: translateY(-10px) perspective( 600px ) rotateX( 10deg ); 
+	-o-transform: translateY(-10px) perspective( 600px ) rotateX( 10deg ); 
+	transform: translateY(-10px) perspective( 600px ) rotateX( 10deg ); 
+}
+
+/* Dark overlay, start state */
+.my-mfp-slide-bottom.mfp-bg {
+	opacity: 0;
+
+	-webkit-transition: opacity 0.3s ease-out; 
+	-moz-transition: opacity 0.3s ease-out; 
+	-o-transition: opacity 0.3s ease-out; 
+	transition: opacity 0.3s ease-out;
+}
+/* animate in */
+.my-mfp-slide-bottom.mfp-ready.mfp-bg {
+	opacity: 0.8;
+}
+/* animate out */
+.my-mfp-slide-bottom.mfp-removing.mfp-bg {
+	opacity: 0;
+}
